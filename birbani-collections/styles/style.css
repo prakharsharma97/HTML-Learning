@@ -1,0 +1,38 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+  }
+
+header{
+  background-color: sienna;
+  text-align: center;
+  padding:30px ;
+  color:wheat;
+}
+  
+.navdiv{
+ 
+ 
+}
+
+ul{
+  background-color: black;
+  color: aliceblue;
+  border: 2px wheat;
+  margin: 1px;
+  padding: 10px;
+}
+
+li{
+ display: inline;
+ padding: 5px;
+ font-size: 20px;
+}
+
+footer{
+  background-color: brown;
+  margin: 10px;
+  padding: 10px;
+  margin: auto;
+}
