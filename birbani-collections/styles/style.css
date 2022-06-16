@@ -1,38 +1,11 @@
-* {
-   padding: 0;
-   margin: 0;
-   box-sizing: border-box;
-  }
-
-header{
-  background-color: sienna;
-  text-align: center;
-  padding:30px ;
-  color:wheat;
-}
-  
-.navdiv{
- 
- 
+body{
+    margin: 0; padding: 0; font-size: 14px; font-family: 'Times New Roman', Times, serif; 
+    color: rgb(7, 6, 8); background-color: rgb(236, 224, 247);
 }
 
-ul{
-  background-color: black;
-  color: aliceblue;
-  border: 2px wheat;
-  margin: 1px;
-  padding: 10px;
-}
-
-li{
- display: inline;
- padding: 5px;
- font-size: 20px;
-}
-
-footer{
-  background-color: brown;
-  margin: 10px;
-  padding: 10px;
-  margin: auto;
-}
+        /* containers cover*/
+    div.cover{ display: block; width: 100%; margin: 0; padding: 0; text-align: center;}
+    .box1{color:#C0BAB6; background-color:#333333;}
+    .box2{color:#C0BAB6; background-color:#333333;}
+    .box3{color:#C0BAB6; background-color:#333333;}
+    .box4{color:#C0BAB6; background-color:#333333;}
