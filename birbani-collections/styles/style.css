@@ -1,11 +1,47 @@
 body{
     margin: 0; padding: 0; font-size: 14px; font-family: 'Times New Roman', Times, serif; 
-    color: rgb(7, 6, 8); background-color: rgb(236, 224, 247);
+    color: rgb(7, 6, 8); background-color: rgb(246, 241, 250);
 }
 
-        /* containers cover*/
+    /* containers cover*/
     div.cover{ display: block; width: 100%; margin: 0; padding: 0; text-align: center;}
-    .box1{color:#C0BAB6; background-color:#333333;}
-    .box2{color:#C0BAB6; background-color:#333333;}
-    .box3{color:#C0BAB6; background-color:#333333;}
-    .box4{color:#C0BAB6; background-color:#333333;}
+    .box1{color:#ffd7bd; background-color:#ac3a3a;}
+    .box2{color:#6d2d03; background-color:#dfe6e2;}
+    .box3{color:#005543; background-color:#f1ebe8;}
+    .box4{color:#000b72; background-color:#fffd98;}
+        
+    /* tags*/
+         article, aside, figcaption, figure, footer, header, nav, section{display: block; margin: 0; padding: 0;}
+
+    /* id's*/
+        
+    #header, #main, #footer, #copyright{display:block;  margin:0 auto;}
+    h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:32px; font-weight:normal; font-style:italic; line-height:normal;}
+
+    .clear:after{content:""; display:block; clear: both; }*/
+    
+    /*header*/
+    #header{padding:0 0;}
+    #header #hgroup{float:left; margin: 15px 0 0 15px;}
+    #header #hgroup h1, #header #hgroup h2{font-weight:normal; font-style:normal; text-transform:none;}
+    #header #hgroup h1 a {font-size:25px; color:#FF9900; text-decoration: none;}
+    #header #hgroup h1 a:hover{text-shadow: #050505 1px 1px 2px;}
+    #header #hgroup h2{font-size:14px;}
+    #header #hgroup h2:hover{text-shadow: #080807 1px 1px 5px; }
+
+    #header nav{display:block; float:right;color:#C0BAB6; }
+    #header nav ul{padding: 10px; }
+    #header nav li{display:inline; margin-right:30px; text-transform:uppercase; font-size: 16px;}
+    #header nav li.last{margin-right:60px;}
+    #header nav li a{color:#ffede0; text-decoration: none;}
+    #header nav li a:hover{color:#FF9900;}
+
+    /*Main*/
+
+
+    /*footer*/
+    #footer{padding:30px 0;font-size:12px; line-height:1.4em;}
+
+    /*footer copyright*/
+    #copyright{ padding: 15px 0;}
+    #copryight{ margin: 0;}

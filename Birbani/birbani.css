@@ -1,0 +1,61 @@
+/* Global */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+/* Header */
+
+    header {
+        background-color: yellowgreen;
+       
+    }
+    header p{
+            padding: 15px 0px 15px 25px;
+            font-size: 25px ;
+    }
+    
+    
+    li{
+        float: right;
+        list-style-type: none;
+        
+     }
+    
+/* Main*/
+
+    main section{
+    background-color: wheat;
+    }
+
+    main.section1{
+        float: right;
+    }
+
+    main.section2{
+
+        display: inline;
+    }
+
+    main.section2{
+
+
+    }
+    main section p{
+        max-width: 25%;
+        display: block;
+    }
+    
+
+
+/* Footer */
+
+    footer section{
+        background-color: green;
+    }
+
+    .footercopywite{
+        text-align: center;
+        background-color: yellow
+    }
