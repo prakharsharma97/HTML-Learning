@@ -1,0 +1,40 @@
+    /* Global elements */
+        *{box-sizing: border-box; margin: 0;padding: 0; text-align: center;}
+
+    /* Header */
+        header{display:inline; border: 1px solid red;}
+        header>section{background-color: aqua;}
+        #logo {border: 1px solid red;}
+        #logo>h1{font-size: 18px;}
+        #logo>h1:hover{color: red;}
+        #logo>h2{font-size: 14px;}
+
+        #navbuttons{border: 1px solid red;}
+        #navbuttons>ul{list-style-type: none;}
+        #navbuttons>ul>li{display: inline; margin: 5px; float: right; color: red;}
+        #navbuttons>ul>li:hover{color: blueviolet;}
+
+    /* Main */ 
+        main{display: block; margin-top: 20px; border: 1px solid green; }
+        /* Banner */
+        /* #banner>img{display: block; width: 100%;} */
+
+        /* Testimonial */
+        .gallery{display: block; margin-top: 20px; border: 2px solid lightgreen; }
+        #galleryimg1,#galleryimg2,#galleryimg3{display: inline-block; border: 1px solid green; }
+        figcaption{display: block; border: 1px solid green;}
+
+        /* introducton */
+        #intro{display: block; margin-top: 20px; border: 2px solid greenyellow;}
+
+    /* Footer */
+        footer{display: block; margin-top: 20px; border: 1px solid blue;}
+        #navbox1,#navbox2,#navbox3,#navbox4 {display:inline-block; border: 1px solid blue;padding:20px 30px; margin:0px 15px;}
+        #navbox1 ul{list-style-type:none;}#navbox1 li{text-align: left;border-bottom: 1px solid black;line-height: 2em;}
+        #navbox2 ul{list-style-type:none;}#navbox2 li{text-align: left;border-bottom: 1px solid black;line-height: 2em;}
+        #navbox3 ul{list-style-type:none;}#navbox3 li{text-align: left;border-bottom: 1px solid black;line-height: 2em;}
+        #navbox4 ul{list-style-type:none;}#navbox4 li{text-align: left;border-bottom: 1px solid black;line-height: 2em;}
+
+
+        #footercopyright{display: block; background-color: yellowgreen;
+                        margin-top: 20px; padding: 15px;}

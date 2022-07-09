@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birbani Collections</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/site.js"></script>
+</head>
+<body>
+
+    <!--header-->
+
+    <div class ="cover box1">
+        <header id="header" class="clear">
+            <div id="hgroup">
+                <h1><a href="#">Birbani Collections</a></h1>
+                <h2>By Fashion Creator Rahkarp Marsh</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">collections</a></li>
+                    <li><a href="#">appointment</a></li>
+                    <li><a href="#">about</a></li>
+                </ul>   
+            </nav>
+        </header>
+    </div> 
+    
+
+
+
+    <!--main--> 
+
+    <div class="cover box2">
+        <div id="main" class="clear">
+           
+        </div>
+    </div>  
+
+    <!--footer-->
+    
+    <div class="cover box3">
+        <div id="footer" class="clear">
+            <!--secton 1-->              
+            <section class="one_column">
+                <h2>Link Block</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#"></a>Lorem ipsum dolor </li>
+                            <li><a href="#"></a>Ammet Abberiveaton</li>
+                            <li><a href="#"></a>Address in variation</li>
+                            <li><a href="#"></a>To Goood to go</li>
+                            <li class="last"><a href="#"></a>The first website </li>
+                        </ul>
+                    </nav>
+            </section>
+            <!--secton 2-->              
+            <section class="two_column">
+                <h2>Link Block</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#"></a>Lorem ipsum dolor </li>
+                            <li><a href="#"></a>Ammet Abberiveaton</li>
+                            <li><a href="#"></a>Address in variation</li>
+                            <li><a href="#"></a>To Goood to go</li>
+                            <li class="last"><a href="#"></a>The first website </li>
+                        </ul>
+                    </nav>
+            </section>
+            <!--secton 3-->              
+            <section class="three_column">
+                <h2>Link Block</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#"></a>Lorem ipsum dolor </li>
+                            <li><a href="#"></a>Ammet Abberiveaton</li>
+                            <li><a href="#"></a>Address in variation</li>
+                            <li><a href="#"></a>To Goood to go</li>
+                            <li class="last"><a href="#"></a>The first website </li>
+                        </ul>
+                    </nav>
+            </section>
+            <!--secton 4-->              
+            <section class="four_column">
+                <h2>Link Block</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#"></a>Lorem ipsum dolor </li>
+                            <li><a href="#"></a>Ammet Abberiveaton</li>
+                            <li><a href="#"></a>Address in variation</li>
+                            <li><a href="#"></a>To Goood to go</li>
+                            <li class="last"><a href="#"></a>The first website </li>
+                        </ul>
+                    </nav>
+            </section>
+            
+        </div>
+    </div>
+
+    <!--footer copyright--> 
+
+    <div class="cover box4">
+        <footer id="copyright">
+            <p>Copyright &copy; 2022- All Rights Reserved </p>
+        </footer>
+    </div>
+    
+</body>
+</html>
