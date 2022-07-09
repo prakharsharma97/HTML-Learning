@@ -51,7 +51,7 @@ body{
     #imgdiscription p{display: block; max-width: 300px; text-align: center;}
     /* introduction */
     #intro{display: block; }
-    #introimg{float: right; margin-top: 20px;}
+    #introimg{ margin-top: 20px;}
     #introdiscription h2{font-size: 27px;}
     #introdiscription p{display: block; text-align: center;}
     
