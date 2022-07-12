@@ -29,14 +29,13 @@ body{
     #header{padding:0; margin: 0;}
     #header #hgroup{float:left;margin-left: 10px;}
     #header #hgroup h1,h2{font-weight:normal; font-style:normal;}
-    #header #hgroup h1 a {margin: 10px; font-size:20px; color:#FF9900;border: 1px solid black;}
+    #header #hgroup h1 a {margin: 10px; font-size:20px; color:#FF9900;}
     #header #hgroup h1 a:hover{text-shadow: #000000 1px 1px 2px;}
     #header #hgroup h2{font-size:14px;}
 
-    #header nav{ display:inline-block; float:right; color:#C0BAB6;border: 1px solid black;}
-    #header nav ul{ border: 1px solid black;}
+    #header nav{ display:inline-block; float:right; color:#C0BAB6;}
     #header nav li{margin: 0px 5px; display:inline; text-transform:capitalize; font-size: 18px;}
-    #header nav li a{color:#ffede0;border: 1px solid black;}
+    #header nav li a{color:#ffede0;}
     #header nav li a:hover{color:#FF9900;}
 
     /*Main*/
@@ -156,5 +155,46 @@ body{
     #footer section nav ul{text-decoration: none;}
     
     /*footer copyright*/
-    #copyright{padding: px;}
+    #copyright{padding:1px;}
     
+
+                        /* contact page */
+#contactbox{display: block; margin: 5px 0px; background-color: rgb(238, 238, 238);}
+#contactbox h1 {text-align: center; font-size: 24px;font-style: normal; padding: 20px 0 50px 0;}
+.contactsec{display: block;margin-left: 30px;   }
+.contactsec h4 {border-bottom: #555555 2px; font-size: 20px;}
+.contactsec h3 {border-bottom: #555555 2px; font-size: 18px;}
+.contact{background-color: #bbb; border-radius: 5px;padding: 20px;}
+input[type=text]{
+    width: 50%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type=button] {
+    width: 20%;
+    background-color: #004053;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=button]:hover {
+    background-color: #002b38;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    }
