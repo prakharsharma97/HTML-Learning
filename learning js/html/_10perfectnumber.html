@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row"> 
+            <div class="col">
+                <h3>Enter a number and check it's a Perfect number</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <label for="inputvalue">Enter the input value</label>
+                <input class="form-control" id="inputvalue" type="number" placeholder="Enter the input value" />
+            </div>
+        </div>
+        <div class="row" style="margin-top:10px;margin-bottom:10px;">
+            <div class="col-md-3">
+                <input class="btn btn-primary" type="button" value="Submit" onclick="checkPerfect()" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <label for="resultText">Result</label>
+                <textarea class="form-control" name="resultText" id="resultText" cols="5" rows="1"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script src="../scripts/jquery.slim.min.js"></script>
+    <script src="../scripts/popper.min.js"></script>
+    <script src="../scripts/bootstrap.min.js"></script>
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/mathlib.js"></script>
+</body>
+
+</html>

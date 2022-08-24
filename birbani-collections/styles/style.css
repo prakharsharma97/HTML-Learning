@@ -23,7 +23,7 @@ body{
     #header, #main, #footer, #copyright{display:block;  margin:0 auto;}
     h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:32px; font-weight:normal; font-style:italic; line-height:normal;}
 
-    .clear:after{content:""; display:block; clear: both; }*/
+    .clear:after{content:""; display:block; clear: both; }
     
     /*header*/
     #header{padding:0; margin: 0;}
